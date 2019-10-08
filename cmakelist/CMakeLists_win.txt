@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 add_executable(keypoint src/demo11_1.cpp)
 
 #Opencv库
-set(OpenCV_DIR C:\\Program\\opencv\\mingw_build\\install)  #为window设置
+set(OpenCV_DIR C:\\Programswin\\opencv\\mingw_build\\install)  #为window设置
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 

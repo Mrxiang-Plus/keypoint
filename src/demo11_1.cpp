@@ -11,7 +11,7 @@
 using namespace std;
 
 int main(int argv, char ** argc){
-    string image_path = "/home/xiang/Documents/dataset/images_point/5.jpg";
+    string image_path = "..\\data\\basketball1.png";
     cv::Mat image ,image_gray;
 
     image = cv::imread(image_path);//读取图片
